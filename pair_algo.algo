@@ -1,0 +1,15 @@
+ALGORITHM SUM_PAIR
+VAR
+    TABLE: ARRAY_OF INTEGER;
+    i,n:INTEGER
+BEGIN
+sum:=0;
+    Write('give the lenght of the table ')
+    Read(n);
+  FOR i FROM 0 TO n-1 STEP 1  DO
+    Read(TAB[i])
+    IF (TAB[i]mod2==0) THEN
+        sum:=sum+TAB[i]
+    END_IF
+ END_FOR
+END

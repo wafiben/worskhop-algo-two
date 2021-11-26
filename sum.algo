@@ -1,0 +1,14 @@
+ALGORITHM SUM
+VAR
+    TAB: ARRAY_OF INTEGER;
+   sum,n,i:INTEGER
+BEGIN
+   sum:=0;
+   Write('the length of table');
+   Read(n);
+   FOR i FROM 0 TO n-1   DO      
+      Read(TAB[i])
+      sum:=sum+TAB[i]
+   END_FOR
+   Write(sum)
+END

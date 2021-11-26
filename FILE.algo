@@ -1,0 +1,13 @@
+ALGORITHM algorithm_name
+VAR
+    array:ARRAY_OF_INTEGER;
+    i,n:INTEGER
+BEGIN
+    Write('give me the lenght of the table');
+    Read(n)
+    FOR i FROM 0 TO n-1  DO
+        Write('give the element of the array')
+        Read(array[i])
+    END_FOR
+    Write(array_name)
+END

@@ -1,0 +1,14 @@
+ALGORITHM IMPAIR
+VAR
+    TAB: ARRAY_OF INTEGER;
+    n,sum,i:INTEGER
+BEGIN
+ Write('give the lenght of the table ');
+ Read(n)
+    FOR i FROM 0 TO n-1 STEP 1  DO
+        IF (TAB[i]mod2<>0) THEN
+            sum:=sum+TAB[i]
+        END_IF
+    END_FOR
+    Write(sum)
+END
